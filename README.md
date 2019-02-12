@@ -17,7 +17,7 @@ Installation:
   $ pip install Flask
   $ pip install requests
   
-To confugure app edit file app.py:
+To configure app edit file app.py:
 1. ALLOWED_EXTENSIONS - type of files
 2. URL - url to your CheckPoint API
 3. PORT - port to run app
