@@ -8,14 +8,14 @@ https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewso
 
 ### 1. Install Python 3.*
 ### 2. Create a working directory:
-  $ mkdir scrubbing && cd scrubbing
+    mkdir scrubbing && cd scrubbing
 ### 3. Copy app.py to the directory
 ### 4. Set up a virtual environment to use for our application:
-  $ python3 -m venv venv
-  $ source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
 ### 5. Install required modules
-  $ pip install Flask
-  $ pip install requests
+    pip install Flask
+    pip install requests
   
 ## To configure app edit file app.py:
 ### 1. ALLOWED_EXTENSIONS - type of files
@@ -24,5 +24,5 @@ https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewso
 
 
 ## Run the app:
-  $ python3 app.py
+    python3 app.py
 
